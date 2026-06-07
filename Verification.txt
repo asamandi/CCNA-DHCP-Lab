@@ -1,0 +1,3 @@
+show ip interface g0/0
+show running-config interface g0/0
+show ip route

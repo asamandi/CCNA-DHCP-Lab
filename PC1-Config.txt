@@ -1,0 +1,5 @@
+Set PC1 to DHCP
+Expected IP: 192.168.10.100+
+Mask: 255.255.255.0
+Gateway: 192.168.10.1
+DNS: 8.8.8.8

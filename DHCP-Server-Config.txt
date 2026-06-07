@@ -1,0 +1,12 @@
+Server IP: 172.16.1.50
+Subnet Mask: 255.255.255.0
+Default Gateway: 172.16.1.1
+
+DHCP Service: ON
+
+Pool Name: LAN10
+Default Gateway: 192.168.10.1
+DNS Server: 8.8.8.8
+Start IP Address: 192.168.10.100
+Subnet Mask: 255.255.255.0
+Maximum Users: 50
