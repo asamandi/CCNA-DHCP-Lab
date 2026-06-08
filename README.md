@@ -1,5 +1,4 @@
-
-# DHCP Relay (IP Helper Address)
+## DHCP Relay (IP Helper Address)
 
 ### TOPOLOGY
 
