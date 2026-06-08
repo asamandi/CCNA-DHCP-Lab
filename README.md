@@ -1,38 +1,30 @@
-CCNA-DHCP-Lab
-DHCP Relay (IP Helper Address)
 
-TOPOLOGY
-----------------------------------------------
-PC1 ── VLAN 10 ── R1 ── R2 ── DHCP Server
+# DHCP Relay (IP Helper Address)
 
-Roles:
-----------------------------------------------
-PC1 → DHCP client
+### TOPOLOGY
 
-R1 → default gateway for PC1
+- PC1 ── VLAN 10 ── R1 ── R2 ── DHCP Server
 
-R2 → holds the DHCP server
+### Roles:
 
-R1 must relay DHCP to R2
+- PC1 → DHCP client
+- R1 → default gateway for PC1
+- R2 → holds the DHCP server
+- R1 must relay DHCP to R2
 
-IP Addressing Plan
-----------------------------------------------
+### IP Addressing Plan
+
 PC LAN (VLAN 10)
-
-Network: 192.168.10.0/24
-
-Gateway: 192.168.10.1
+- Network: 192.168.10.0/24
+- Gateway: 192.168.10.1
 
 R1–R2 Link
 
-R1 g0/1 → 10.0.12.1/30
-
-R2 g0/1 → 10.0.12.2/30
+- R1 g0/1 → 10.0.12.1/30
+- R2 g0/1 → 10.0.12.2/30
 
 DHCP Server LAN
 
-Network: 172.16.1.0/24
-
-Server IP: 172.16.1.50
-
-R2 g0/0 = 172.16.1.1
+- Network: 172.16.1.0/24
+- Server IP: 172.16.1.50
+- R2 g0/0 = 172.16.1.1
